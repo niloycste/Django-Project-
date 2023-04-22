@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning</title>
+</head>
+<body>
+    <h1>We are offering {{c}}. There have more than {{tl}}  available {{st}} seats. Finally need for course complete time {{cd}}</h1>
+     <h2>this is small {{c|upper}}</h2>
+
+     {% if st == 40 %}
+     <h1> this is if</h1>
+    {% elif st == 20 %}
+    <h2>this is elif part</h2>
+    {% else %}
+    <h3>this is else</h3>
+    {% endif %}
+</body>
+</html>
